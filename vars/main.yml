@@ -10,4 +10,4 @@ ubuntu_pkg:
   - python-selinux
   - nginx
 
-  
+nginx_test_script: /usr/local/sbin/nginx-test
