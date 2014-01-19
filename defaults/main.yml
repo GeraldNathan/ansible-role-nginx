@@ -25,3 +25,5 @@ nginx_sites:
     root: "/tmp/site2"
     location1: {name: /, try_files: "$uri $uri/ /index.html"}
     location2: {name: /images/, try_files: "$uri $uri/ /index.html"}
+
+nginx_bin: /usr/sbin/nginx
