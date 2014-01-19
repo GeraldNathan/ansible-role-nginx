@@ -2,6 +2,8 @@
 
 nginx_max_clients: 512
 
+nginx_worker_processes: "{{ansible_processor_count}}"
+
 nginx_http_params:
   sendfile: "on"
   tcp_nopush: "on"
